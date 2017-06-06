@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learning to use Emmet</title>
+
+  <style>
+
+    body {
+      background-color: #c0c0c0;
+      font: 16px arial;
+    }
+
+
+  </style>
+
+</head>
+<body>
+
+  <!-- command / TAB - comment
+  command shift d TAB - duplicate
+  command click - select more cursors, escape to leave -->
+
+<h1>Learning to use Emmet</h1>
+
+<p>This is a paragraph</p>
+
+<p class="intro">Intro text</p>
+
+<!-- ul>li.item{Item $}*3 -->
+<ul>
+  <li class="item">Item 1</li>
+  <li class="item">Item 2</li>
+  <li class="item">Item 3</li>
+</ul>
+
+<!-- p>lorem -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius, adipisci repudiandae iure optio explicabo nemo quas rerum neque odio, vel nisi eligendi quod nihil dolore odit modi! Provident, eligendi.</p>
+
+<!-- p>lorem2 (only gives two words) -->
+<p>Lorem ipsum.</p>
+
+<!-- p*2>lorem -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, rerum! Repellat amet, labore in maiores adipisci ullam itaque ipsum maxime? Aliquam temporibus architecto doloribus quo maxime reprehenderit numquam, pariatur et.</p>
+<p>Dolorem fugiat ipsum rerum placeat. Animi ipsa molestiae veritatis tenetur, maxime nisi sit illo doloremque provident optio, velit, assumenda mollitia incidunt aperiam reprehenderit illum, esse eos? Totam provident quos labore.</p>
+
+<!-- sibling h1+p  -->
+<h1></h1>
+<p></p>
+
+ <!-- .wrapper>header>h1^nav -->
+ <div class="wrapper">
+   <header>
+     <h1></h1>
+   </header>
+   <nav></nav>
+ </div>
+
+<!-- div>(header>ul>li*2>a)+footer -->
+<div>
+  <header>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </header>
+  <footer></footer>
+</div>
+
+<!-- nav>ul>li*>a[href=http://www.$#.com]{$#} -->
+<!-- control w to wrap -->
+
+<nav>
+  <ul>
+    <li><a href="http://www.facebook.com">facebook</a></li>
+    <li><a href="http://www.twiter.com">twiter</a></li>
+    <li><a href="http://www.instagram.com">instagram</a></li>
+  </ul>
+</nav>
+
+
+
+  </header>
+</div>
+
+
+
+
+</body>
+</html>
